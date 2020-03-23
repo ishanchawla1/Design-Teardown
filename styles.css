@@ -1,0 +1,58 @@
+main {
+  display: grid;
+  grid-template-rows: 170px 80px repeat(5,170px);
+  grid-template-columns: repeat(8,1fr);
+  grid-gap: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: grey;
+}
+
+.addBorder {
+  border: 11px solid grey;
+}  
+
+.header {
+  grid-column: 1/-1;
+  grid-row: 1;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: grey;
+  width: 100%;
+}
+
+.headerItem {
+  /*margin: 10px 10px 10px 10px;*/
+  background-color: #424242;
+  width: 185px;
+  height: 130px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.pageLogo {
+  width: 250px;
+}
+
+.h2Class {
+  text-align:center;
+}
+
+.whiteTextNoStyle {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.latestArticles {
+  width: auto;
+  height: 80px;
+  background-color: #424242;
+  grid-row: 2/3;
+  grid-column: 4/6;
+}
+
+.noStyle {
+  margin: 0%;
+  padding: 0%;
+}
