@@ -8,8 +8,8 @@ main {
 }
 
 .addBorder {
-  border: 11px solid red ;
-}  
+  border: 11px solid red;
+}
 
 .header {
   grid-column: 1/-1;
@@ -116,4 +116,33 @@ main {
 .article5 {
   grid-row: 5;
   grid-column: 1/5;
+}
+
+.articleType2Age {
+  background-color: #424242;
+  height: 20px;
+  width: 150px;
+}
+
+.articleType2Header {
+  background-color: #424242;
+  height: 20px;
+  width: 350px;
+}
+
+.articleType2Author {
+  background-color: #424242;
+  margin-top: 10px;
+  height: 20px;
+  width: 150px;
+}
+
+.articleType2Content {
+  background-color: #424242;
+  height: 120px;
+  width: 450px;
+}
+
+.articleType2Arrow {
+  margin-top: 150px;
 }
