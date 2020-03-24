@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(4, 650px) repeat(5, 170px);
+  grid-template-rows: 170px 80px repeat(5, 650px) repeat(5, 170px);
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
@@ -118,6 +118,45 @@ main {
   grid-column: 1/5;
 }
 
+.article6 {
+  grid-row: 5;
+  grid-column: 5/9;
+}
+
+.article7 {
+  grid-row: 5;
+  grid-column: 9/13;
+}
+
+.article8 {
+  grid-row: 6;
+  grid-column: 1/5;
+}
+
+.article9 {
+  grid-row: 6;
+  grid-column: 5/9;
+}
+
+.article10 {
+  grid-row: 6;
+  grid-column: 9/13;
+}
+
+.article11 {
+  grid-row: 7;
+  grid-column: 1/5;
+}
+
+.article12 {
+  grid-row: 7;
+  grid-column: 5/9;
+}
+
+.article13 {
+  grid-row: 7;
+  grid-column: 9/13;
+}
 .articleType2Age {
   background-color: #424242;
   height: 20px;
@@ -145,4 +184,13 @@ main {
 
 .articleType2Arrow {
   margin-top: 150px;
+}
+
+.seeAllLatestArticles {
+  width: auto;
+  height: 40px;
+  margin: 20px 0 80px 0;
+  background-color: #424242;
+  grid-row: 8/9;
+  grid-column: 5/9;
 }
