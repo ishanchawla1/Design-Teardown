@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 650px) repeat(5, 170px);
+  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px repeat(5, 170px);
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
@@ -157,6 +157,7 @@ main {
   grid-row: 7;
   grid-column: 9/13;
 }
+
 .articleType2Age {
   background-color: #424242;
   height: 20px;
@@ -193,4 +194,56 @@ main {
   background-color: #424242;
   grid-row: 8/9;
   grid-column: 5/9;
+}
+
+.advertisement {
+  grid-row: 9;
+  grid-column: 1/-1;
+}
+
+.currentMonth {
+  background-color: #424242;
+  height: 18px;
+  width: auto;
+}
+
+.advertisementTitle {
+  background-color: #424242;
+  height: 38px;
+  min-width: 500px;
+  text-align: center;
+  width: max-content;
+  margin: auto;
+}
+
+.advertisementSubTitle {
+  background-color: #424242;
+  height: 38px;
+  min-width: 500px;
+  text-align: center;
+  width: max-content;
+  margin: auto;
+}
+
+.advertisementDescription {
+  background-color: #424242;
+  height: 150px;
+  min-width: 700px;
+  text-align: center;
+  width: max-content;
+  margin: 50px auto 40px auto;
+}
+
+.advertisementLink {
+  background-color: #424242;
+  height: 45px;
+  width: 200px;
+  margin: 0 auto 20px auto;
+}
+
+.advertisementImage {
+  background-color: #424242;
+  width: 700px;
+  height: 450px;
+  margin: auto;
 }
