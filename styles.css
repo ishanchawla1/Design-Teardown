@@ -1,14 +1,14 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px 500px 500px repeat(5,170px);
-  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: 170px 80px 650px 650px repeat(5, 170px);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
   background-color: grey;
 }
 
 .addBorder {
-  border: 11px solid grey;
+  border: 11px solid red ;
 }  
 
 .header {
@@ -56,8 +56,8 @@ main {
   padding: 0%;
 }
 
-
 .article1 {
+  padding: 50px;
   grid-row: 3;
   grid-column: 1/5;
 }
@@ -75,4 +75,41 @@ main {
 .article4 {
   grid-row: 4;
   grid-column: 5/-1;
+}
+
+.author {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.authorImage {
+  background-color: #424242;
+  width: 50px;
+  height: 50px;
+}
+
+.authorName {
+  background-color: #424242;
+  width: 150px;
+  height: 50px;
+}
+
+.smallMargin {
+  margin: 15px;
+}
+
+.description {
+  background-color: #424242;
+  width: auto;
+  height: 200px;
+}
+
+.hashTagSection {
+  background-color: #424242;
+  width: 450px;
+  height: 40px;
+}
+
+.arrow {
+  margin-top: 50px;
 }
