@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5,170px);
+  grid-template-rows: 170px 80px 500px 500px repeat(5,170px);
   grid-template-columns: repeat(8,1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
@@ -22,7 +22,6 @@ main {
 }
 
 .headerItem {
-  /*margin: 10px 10px 10px 10px;*/
   background-color: #424242;
   width: 185px;
   height: 130px;
@@ -35,7 +34,7 @@ main {
 }
 
 .h2Class {
-  text-align:center;
+  text-align: center;
 }
 
 .whiteTextNoStyle {
@@ -55,4 +54,25 @@ main {
 .noStyle {
   margin: 0%;
   padding: 0%;
+}
+
+
+.article1 {
+  grid-row: 3;
+  grid-column: 1/5;
+}
+
+.article2 {
+  grid-row: 3;
+  grid-column: 5/-1;
+}
+
+.article3 {
+  grid-row: 4;
+  grid-column: 1/5;
+}
+
+.article4 {
+  grid-row: 4;
+  grid-column: 5/-1;
 }
