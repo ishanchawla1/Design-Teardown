@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px 500px repeat(3, 450px) 300px 550px 700px;
+  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px 500px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
@@ -446,4 +446,55 @@ main {
 .textMargin {
   border: 5px solid #424242;
   margin: 5px 0 5px 0;
+}
+
+.smashingNewsletter {
+  grid-row: 17;
+  grid-column: 2/12;
+}
+
+.marginTop20px {
+  margin-top: 20px;
+}
+
+.marginTop50px {
+  margin-top: 50px;
+}
+
+.noUnderline {
+  text-decoration: none;
+}
+
+.quote {
+  margin:auto;
+  max-width: 500px;
+}
+
+.marginAuto {
+  margin: auto;
+}
+
+.newsLetterImage {
+  width: 500px;
+  height: 600px;
+  background-color: #424242;
+  margin: 50px auto 0 auto;
+}
+
+.subscribeEmail {
+  margin: 0 auto 0 auto;
+}
+
+.newsletterFooter {
+  max-width: 500px;
+  margin: 20px auto 0 auto;
+}
+
+.seeArticles {
+  width: auto;
+  height: 40px;
+  margin: 20px 0 80px 0;
+  background-color: #424242;
+  grid-row: 18;
+  grid-column: 5/9;
 }
