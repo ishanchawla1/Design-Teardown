@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px repeat(5, 170px);
+  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px 500px repeat(5, 450px);
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
@@ -246,4 +246,114 @@ main {
   width: 700px;
   height: 450px;
   margin: auto;
+}
+
+.personOfTheWeek {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 10;
+  grid-column: 1/-1;
+  margin: auto;
+}
+
+.personImage {
+  width: 400px;
+  height: 400px;
+  background-color: #424242;
+  margin-right: 10px;
+}
+
+.personInfoTitle {
+  width: 1000px;
+  height: 50px;
+  background-color: #424242;
+  margin-left: 10px;
+}
+
+.alignLeft {
+  text-align: start;
+}
+
+.smallPadding {
+  padding: 15px;
+}
+
+.personInfoDescription {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #424242;
+  height: 250px;
+  width: 1550px;
+}
+
+.article14 {
+  grid-row: 11;
+  grid-column: 1/7;
+}
+
+.article15 {
+  grid-row: 11;
+  grid-column: 7/13;
+}
+
+.article16 {
+  grid-row: 12;
+  grid-column: 1/7;
+}
+
+.article17 {
+  grid-row: 12;
+  grid-column: 7/13;
+}
+
+.article18 {
+  grid-row: 13;
+  grid-column: 1/7;
+}
+
+.article19 {
+  grid-row: 13;
+  grid-column: 7/13;
+}
+
+.displayFlexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actualImage {
+  background-color: #424242;
+  height: 100px;
+  width: 100px;
+}
+
+.authorNamePerson {
+  background-color: #424242;
+  height: 30px;
+  width: 100px;
+}
+
+.articleTitle {
+  background-color: #424242;
+  height: 50px;
+  width: 500px;
+}
+
+.articleDescription {
+  background-color: #424242;
+  height: 100px;
+  width: 700px;
+}
+
+.smallMarginLeft {
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.smallMarginRight {
+  margin-left: 10px;
+}
+
+.smallPaddingTop {
+  margin-top: 10px;
 }
