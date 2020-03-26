@@ -1,14 +1,13 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 650px) 170px 1100px 500px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
+  grid-template-rows: 170px 80px repeat(5, 850px) 170px 1200px 500px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 10px;
   font-family: 'Roboto', sans-serif;
   background-color: grey;
 }
 
 .addBorder {
-  border: 11px solid red;
+  border: 5px solid #eeeeee;
 }
 
 .header {
@@ -25,8 +24,8 @@ main {
   background-color: #424242;
   width: 185px;
   height: 130px;
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .pageLogo {
@@ -34,7 +33,6 @@ main {
 }
 
 .whiteTextNoStyle {
-  text-align: center;
   color: white;
   text-decoration: none;
 }
@@ -42,9 +40,24 @@ main {
 .latestArticles {
   width: auto;
   height: 80px;
-  background-color: #424242;
+  background-color: #bdbdbd;
   grid-row: 2/3;
-  grid-column: 5/9;
+  grid-column: 6/8;
+}
+
+.articleContent {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.hashTagFont {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.daysAgoFont {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .noStyle {
@@ -85,6 +98,8 @@ main {
 
 .authorName {
   background-color: #424242;
+  font-size: 21px;
+  font-weight: 700;
   width: 150px;
   height: 50px;
 }
@@ -166,31 +181,37 @@ main {
 
 .articleType2Header {
   background-color: #424242;
-  height: 20px;
-  width: 350px;
+  font-size: 45px;
+  font-weight: 700;
+  height: max-content;
+  width: 550px;
+  margin-bottom: 25px;
 }
 
 .articleType2Author {
   background-color: #424242;
   margin-top: 10px;
-  height: 20px;
+  padding-top: 5px;
+  height: 30px;
   width: 150px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .articleType2Content {
   background-color: #424242;
-  height: 120px;
-  width: 450px;
+  height: max-content;
+  width: 550px;
 }
 
 .articleType2Arrow {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .seeAllLatestArticles {
   width: auto;
   height: 40px;
-  margin: 20px 0 80px 0;
+  margin: auto;
   background-color: #424242;
   grid-row: 8/9;
   grid-column: 5/9;
@@ -203,22 +224,31 @@ main {
 
 .currentMonth {
   background-color: #424242;
-  height: 18px;
+  height: 30px;
+  border: solid 5px #fff;
   width: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .advertisementTitle {
   background-color: #424242;
-  height: 38px;
+  font-size: 54px;
+  font-weight: 700;
+  height: auto;
   min-width: 500px;
   text-align: center;
   width: max-content;
-  margin: auto;
+  margin: 20px auto 0 auto;
 }
 
 .advertisementSubTitle {
   background-color: #424242;
-  height: 38px;
+  height: auto;
+  font-size: 54px;
+  font-weight: 700;
   min-width: 500px;
   text-align: center;
   width: max-content;
@@ -227,7 +257,9 @@ main {
 
 .advertisementDescription {
   background-color: #424242;
-  height: 150px;
+  font-size: 25px;
+  font-weight: 700;
+  height: auto;
   min-width: 700px;
   text-align: center;
   width: max-content;
@@ -236,16 +268,18 @@ main {
 
 .advertisementLink {
   background-color: #424242;
-  height: 45px;
-  width: 200px;
-  margin: 0 auto 20px auto;
+  font-size: 24px;
+  font-weight: 700;
+  height: auto;
+  width: max-content;
+  margin: auto;
 }
 
 .advertisementImage {
   background-color: #424242;
   width: 700px;
   height: 450px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .personOfTheWeek {
@@ -264,10 +298,12 @@ main {
 }
 
 .personInfoTitle {
-  width: 1000px;
-  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  width: max-content;
+  height: auto;
   background-color: #424242;
-  margin-left: 10px;
+  margin:0 0 40px 10px;
 }
 
 .alignLeft {
@@ -279,10 +315,11 @@ main {
 }
 
 .personInfoDescription {
-  margin-top: 10px;
-  margin-left: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 10px 0 0 10px;
   background-color: #424242;
-  height: 250px;
+  height: auto;
   width: 1550px;
 }
 
@@ -328,21 +365,30 @@ main {
 }
 
 .authorNamePerson {
+  font-size: 21px;
+  font-weight: 700;
   background-color: #424242;
-  height: 30px;
-  width: 100px;
+  height: auto;
+  width: max-content;
+  padding: 10px;
 }
 
 .articleTitle {
+  font-size: 32px;
+  font-weight: 700;
   background-color: #424242;
-  height: 50px;
-  width: 500px;
+  height: auto;
+  width: max-content;
+  padding: 10px;
 }
 
 .articleDescription {
+  font-size: 20px;
+  font-weight: 700;
   background-color: #424242;
-  height: 100px;
-  width: 700px;
+  height: auto;
+  width: max-content;
+  padding: 10px;
 }
 
 .smallMarginLeft {
@@ -367,6 +413,7 @@ main {
   width: max-content;
   grid-column: 1/13;
   margin: auto;
+  height: auto;
   padding: 15px;
 }
 
@@ -382,9 +429,12 @@ main {
 }
 
 .publication {
-  width: 300px;
-  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  height: auto;
+  width: max-content;
   background-color: #424242;
+  margin-bottom: 10px;
 }
 
 .bookText {
@@ -393,21 +443,29 @@ main {
 
 .bookTitle {
   background-color: #424242;
-  height: 80px;
-  width: 500px;
+  font-size: 50px;
+  font-weight: 700;
+  height: auto;
+  width: max-content;
+  margin-bottom: 20px;
 }
 
 .bookDescription {
   background-color: #424242;
-  height: 150px;
-  width: 1500px;
+  font-size: 21px;
+  font-weight: 700;
+  height: auto;
+  width: max-content;
+  margin-bottom: 10px;
 }
 
 .tableOfContents {
+  font-size: 24px;
+  font-weight: 700;
   border-radius: 5px;
   background-color: #424242;
-  height: 80px;
-  width: 400px;
+  height: auto;
+  width: max-content;
 }
 
 .guide1 {
@@ -436,7 +494,10 @@ main {
 }
 
 .guideListItem {
+  font-size: 23px;
+  font-weight: 400;
   background-color: #424242;
+  width: max-content;
 }
 
 .colorWhite {
@@ -449,8 +510,14 @@ main {
 }
 
 .smashingNewsletter {
+  text-align: center;
   grid-row: 17;
   grid-column: 2/12;
+}
+
+.newsLetterHead {
+  font-size: 46px;
+  font-size: 700;
 }
 
 .marginTop20px {
@@ -474,6 +541,11 @@ main {
   margin: auto;
 }
 
+.guideHeading {
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .newsLetterImage {
   width: 500px;
   height: 600px;
@@ -492,8 +564,9 @@ main {
 
 .seeArticles {
   width: auto;
+  text-align: center;
   height: 40px;
-  margin: 20px 0 80px 0;
+  margin: 20px auto 80px auto;
   background-color: #424242;
   grid-row: 18;
   grid-column: 5/9;
@@ -505,6 +578,8 @@ main {
 }
 
 .footerHeaderWidth {
+  font-size: 17px;
+  font-weight: 700;
   max-width: max-content;
   padding-bottom: 20px;
   text-align: center;
@@ -520,12 +595,17 @@ main {
 }
 
 .footerUl {
+  font-size: 25px;
+  font-weight: 700;
   display: flex;
   flex-wrap: wrap;
   max-width: 1600px;
-  font-size: 25px;
 }
 
 .footerUlLi {
   margin-left: 40px;
+}
+
+.noMargin {
+  margin: 0 0 0 0;
 }
