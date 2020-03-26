@@ -7,7 +7,7 @@ main {
 }
 
 .addBorder {
-  border: 5px solid #eeeeee;
+  border: 5px solid #eee;
 }
 
 .header {
@@ -303,7 +303,7 @@ main {
   width: max-content;
   height: auto;
   background-color: #424242;
-  margin:0 0 40px 10px;
+  margin: 0 0 40px 10px;
 }
 
 .alignLeft {
@@ -563,10 +563,10 @@ main {
 }
 
 .seeArticles {
-  width: auto;
+  width: max-content;
   text-align: center;
-  height: 40px;
-  margin: 20px auto 80px auto;
+  height: auto;
+  margin: 20px auto 0 auto;
   background-color: #424242;
   grid-row: 18;
   grid-column: 5/9;
@@ -608,4 +608,8 @@ main {
 
 .noMargin {
   margin: 0 0 0 0;
+}
+
+.nonLinkBackground {
+  background-color: #9e9e9e;
 }
