@@ -33,7 +33,7 @@ CSS grid & Flex box and float
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ishanchawla1/Positioning-and-Floating-Elements/issues).
+Feel free to check the [issues page](https://github.com/ishanchawla1/Design-Teardown/issues).
 
 ## Show your support
 
