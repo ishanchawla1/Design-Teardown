@@ -184,7 +184,7 @@ main {
   font-size: 45px;
   font-weight: 700;
   height: max-content;
-  width: 550px;
+  width: 450px;
   margin-bottom: 25px;
 }
 
@@ -193,7 +193,7 @@ main {
   margin-top: 10px;
   padding-top: 5px;
   height: 30px;
-  width: 150px;
+  width: 450px;
   font-size: 17px;
   font-weight: 700;
 }
@@ -201,7 +201,7 @@ main {
 .articleType2Content {
   background-color: #424242;
   height: max-content;
-  width: 550px;
+  width: 450px;
 }
 
 .articleType2Arrow {
