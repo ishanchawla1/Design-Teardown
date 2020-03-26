@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 850px) 170px 1250px 500px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
+  grid-template-rows: 170px 80px repeat(5, 850px) 170px 1250px 600px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
   grid-template-columns: repeat(12, 1fr);
   font-family: 'Roboto', sans-serif;
   background-color: grey;
@@ -320,7 +320,8 @@ main {
   margin: 10px 0 0 10px;
   background-color: #424242;
   height: auto;
-  width: 1550px;
+  width: auto;
+  max-width: 900px;
 }
 
 .article14 {
