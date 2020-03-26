@@ -363,11 +363,11 @@ main {
 }
 
 .moreLinksOnTwitter {
- grid-row: 14;
- width: max-content;
- grid-column: 1/13;
- margin: auto;
- padding: 15px;
+  grid-row: 14;
+  width: max-content;
+  grid-column: 1/13;
+  margin: auto;
+  padding: 15px;
 }
 
 .smashingMagzineBook {
@@ -466,7 +466,7 @@ main {
 }
 
 .quote {
-  margin:auto;
+  margin: auto;
   max-width: 500px;
 }
 
@@ -497,4 +497,35 @@ main {
   background-color: #424242;
   grid-row: 18;
   grid-column: 5/9;
+}
+
+.footer {
+  grid-row: 19;
+  grid-column: 1/-1;
+}
+
+.footerHeaderWidth {
+  max-width: max-content;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footerList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerLiWidth {
+  max-width: max-content;
+}
+
+.footerUl {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  font-size: 25px;
+}
+
+.footerUlLi {
+  margin-left: 40px;
 }
