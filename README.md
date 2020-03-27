@@ -12,7 +12,7 @@ CSS grid & Flex box and float
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ishanchawla1/Positioning-and-Floating-Elements/814bee5e8d651c547275d74c6afe91568ae4470b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ishanchawla1/Design-Teardown/951834fba8b7aa533e51ca91a48099a61f021777/index.html)
 
 
 ## Getting Started
