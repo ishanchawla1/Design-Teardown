@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 0px 80px  repeat(2, 550px) repeat(3, 850px) 170px 1250px 600px repeat(3, 550px) 300px 450px 700px 1000px 170px 600px;
+  grid-template-rows: 0 80px  repeat(2, 550px) repeat(3, 850px) 170px 1250px 600px repeat(3, 550px) 300px 450px 700px 1000px 170px 600px;
   grid-template-columns: repeat(12, 1fr);
   font-family: 'Roboto', sans-serif;
   background-color: grey;

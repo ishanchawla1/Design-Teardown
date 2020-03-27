@@ -1,9 +1,10 @@
 # Smashing Magzine Heatmap
 
-> This project was made as a part of Microverse Curriculum for Full Stack Developer for Design-Teardown Project
+> This project was made as a part of Microverse Curriculum for Full Stack Developer for Design-Teardown Projec. Here we are building a heatmap of the Smashing magazine website
 
 ![screenshot](./app_screenshot.png)
 
+In this heartmap the darker elements are more interactive and more likely to be clicked or viewed more often.
 
 ## Built With
 
