@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 170px 80px repeat(5, 850px) 170px 1250px 600px repeat(3, 450px) 300px 550px 700px 1000px 170px 600px;
+  grid-template-rows: 170px 80px  repeat(2, 550px) repeat(3, 850px) 170px 1250px 600px repeat(3, 550px) 300px 450px 700px 1000px 170px 600px;
   grid-template-columns: repeat(12, 1fr);
   font-family: 'Roboto', sans-serif;
   background-color: grey;
@@ -46,7 +46,7 @@ main {
 }
 
 .articleContent {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
 }
 
@@ -105,7 +105,7 @@ main {
 }
 
 .smallMargin {
-  margin: 15px;
+  margin: 10px;
 }
 
 .medPadding {
@@ -115,13 +115,14 @@ main {
 .description {
   background-color: #424242;
   width: auto;
-  height: 200px;
+  max-width: 550px;
+  height: auto;
 }
 
 .hashTagSection {
   background-color: #424242;
-  width: 450px;
-  height: 40px;
+  width: max-content;
+  height: auto;
 }
 
 .arrow {
@@ -181,10 +182,11 @@ main {
 
 .articleType2Header {
   background-color: #424242;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  height: max-content;
-  width: 450px;
+  height: auto;
+  width: auto;
+  max-width: 300px;
   margin-bottom: 25px;
 }
 
@@ -193,15 +195,16 @@ main {
   margin-top: 10px;
   padding-top: 5px;
   height: 30px;
-  width: 450px;
+  width: 300px;
   font-size: 17px;
   font-weight: 700;
 }
 
 .articleType2Content {
   background-color: #424242;
-  height: max-content;
-  width: 450px;
+  height: auto;
+  width: auto;
+  max-width: 300px;
 }
 
 .articleType2Arrow {
@@ -235,7 +238,7 @@ main {
 
 .advertisementTitle {
   background-color: #424242;
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 700;
   height: auto;
   min-width: 500px;
@@ -247,7 +250,7 @@ main {
 .advertisementSubTitle {
   background-color: #424242;
   height: auto;
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 700;
   min-width: 500px;
   text-align: center;
@@ -257,7 +260,7 @@ main {
 
 .advertisementDescription {
   background-color: #424242;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   height: auto;
   min-width: 700px;
@@ -291,8 +294,8 @@ main {
 }
 
 .personImage {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background-color: #424242;
   margin-right: 10px;
 }
@@ -388,7 +391,8 @@ main {
   font-weight: 700;
   background-color: #424242;
   height: auto;
-  width: max-content;
+  width: auto;
+  max-width: 550px;
   padding: 10px;
 }
 
@@ -427,6 +431,7 @@ main {
   background-color: #424242;
   width: 250px;
   height: 300px;
+  margin-left: auto;
 }
 
 .publication {
@@ -444,8 +449,8 @@ main {
 
 .bookTitle {
   background-color: #424242;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 800px;
   height: auto;
   width: max-content;
   margin-bottom: 20px;
@@ -456,7 +461,8 @@ main {
   font-size: 21px;
   font-weight: 700;
   height: auto;
-  width: max-content;
+  width: auto;
+  max-width: 750px;
   margin-bottom: 10px;
 }
 
